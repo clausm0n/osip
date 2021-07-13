@@ -16,143 +16,129 @@ export default function Series2(){
 
                             <Gimage 
                             path={"images/Series2/Are We Missing Something.png"} 
-                            desc={"How many times have we looked through this room? Scoured it's contents. I know no detail was missed and nothing is unaccounted for. Still I keep asking myself: are we missing something?"}
-                            
-                            title={"Are We Missing Something"} />
+                            desc={"How many times have we looked through this room? Scoured its contents. I know no detail was missed and nothing is unaccounted for. Still, I keep asking myself: are we missing something?"}
+                            desc2={"Скільки раз ми оглядали цю кімнату? Переглядали все в ній. Я знаю, що жодна деталь не була упущена і нічого не залишилося неврахованим. І все ж я продовжую питати себе: ми щось упускаємо?"}
+                            title={"Are We Missing Something - Ми щось упускаємо"} />
 
                             <Gimage 
                             path={"images/Series2/Authority of The Lake.png"} 
-                            desc={`You have been here before. Perhaps it is where you work. Maybe it is where you or your children go to school. Or you've never gone inside but you've passed this building many times.
-                            But here you are, after everyone has left for the day. The darkness that surrounds this building and the lack of people makes it feel like you are seeing it for the first time.`}
-                            desc2={`Ви були тут раніше. Можливо, це те місце, де ви працюєте. Можливо, це місце, куди ви або ваші діти ходите до школи. Або ви ніколи не заходили всередину, але проходили повз цієї будівлі багато разів. Але ось ви тут, після того, як всі пішли. Темрява, яка оточує цю будівлю, і відсутність людей змушують вас відчувати, що ви бачите її вперше.`} 
-                            title={"After Hours - Час після зачинення"} />
+                            desc={`The imposing structure divides the lake in two. Not because it was necessary but because its owner wants to see the lake from both sides of the house.`}
+                            desc2={`Вражаюча будівля розділяє озеро на дві частини. Не тому, що це було необхідно, а тому, що його власник хоче бачити озеро з обох сторін будинку.`} 
+                            title={"Authority of The Lake - Влада Озера"} />
 
                             <Gimage 
                             path={"images/Series2/Château de Désintérêt.png"} 
                             
-                            title={"Between The Garden & The Home - Між Садом та Домом"} />
+                            title={"Château de Désintérêt - Замок незацікавленості"} />
 
                             <Gimage 
                             path={"images/Series2/Continuous Greenhouse.png"} 
                             
-                            title={"Casting Out For The Day - Кастинг на день"} />
+                            title={"Continuous Greenhouse - Безперервна оранжерея"} />
 
                             <Gimage 
                             path={"images/Series2/Decoupage Forest.png"} 
-                            desc={`We hear them. The sound of steel hitting steel. Men screaming in fury and pain. The deafening thunder of hundreds of horses charging.
-                            They are too far away to see but we know what is happening. The forces of Æthelred are routed by the forces of Sweyn Forkbeard.
-                            We must flee or die by their blades. But where will we go? Countless many are the villages that have shared the same fate as ours. `}
-                            desc2={`Ми їх чуємо. Звук удару сталі. Чоловіки кричать у люті й болю. Оглушливий грім сотень коней. Вони занадто далеко, щоб бачити, але ми знаємо, що відбувається. Сили Етелреда тікають від сил Свейн Форкборода. Ми повинні бігти або померти від їх клинків. Але куди ми підемо? Незліченна кількість людей поділяє ту ж долю, що й ми.
-                            `} 
-                            title={"Countless Many Are The Villages - Незліченна кількість селищ"} />
+                            
+                            title={"Decoupage Forest - Декупажний ліс"} />
 
                             <Gimage 
                             path={"images/Series2/Dividing Line Between Neighbors.png"} 
-                            desc={`Sometimes I feel conflicted about giving descriptions to these pieces. 
-                            I would prefer they speak for themselves but sometimes a little explanation can be helpful.
-                            Here the sea and sky are almost indistinguishable by their color, only seperated by a beach of dark coarse sand and rocky outcrops.
-                            The sea, the beach, and the sky all stretch on endlessly. 
-                            They are all products of entropy and will forever remain unchanged.`}
-                            desc2={`Іноді мені важко давати опис цим витворам. Я б вважав за краще, щоб вони говорили самі за себе, але іноді невелике пояснення може бути корисним. Тут море і небо майже невиразні за кольором, їх розділяє лише пляж з темного крупного піску й скелястих оголених порід. Море, пляж і небо — все це тягнеться нескінченно. Всі вони є продуктами ентропії та назавжди залишаться незмінними.`} 
-                            title={"Fallow & Endless - Пар та Нескінченність"} />
+                            desc={`Robert Frost says that "Good fences make good neighbors". A saying with much truth to it. However sometimes that barrier that separates the neighbors is a more subtle one.`}
+                            desc2={`Роберт Фрост сказав, що «гарні паркани роблять нас гарними сусідами». У цьому висловлюванні багато правди. Однак іноді бар'єр, що розділяє сусідів, буває більш тонким.`} 
+                            title={"Dividing Line Between Neighbors - Розділова лінія між сусідами"} />
 
                             <Gimage 
-                            path={"images/Series2/Faltering Chapel.png"} 
-                            
-                            title={"Growing Old With The Sea - Старіння з морем"} />
+                            path={"images/Series2/Faltering Chapel.png"}
+                            desc={"It still stands but for how long? Even if it stands for the rest of time, it is not what it once was. The church is vacant and decrepit. Only moss and mold grow here. Only animals take shelter in its hall. A hollow shell of what it once was."} 
+                            desc2={"Вона все ще стоїть, але чи надовго це? Навіть якщо вона стоїть до кінця часів, це вже не те, чим вона була раніше. Церква пустує і занепадає. Тут ростуть тільки мох і пліснява. В її залі ховаються тільки тварини. Порожня оболонка того, чим вона колись була."}
+                            title={"Faltering Chapel - Церква, що хитається"} />
 
                             <Gimage 
                             path={"images/Series2/Founding of Venice.png"} 
-                            desc={`A beautiful time of year to visit the park and to look out over the Carpathian Mountains. For nature lovers it is a must visit.`}
-                            desc2={`Чудова пора року для відвідування парку й огляду Карпат. Для любителів природи це обов'язкове місце для відвідування.`} 
-                            title={"Hutsulshchyna In Early Spring - Гуцульщина ранньою весною"} />
+                            desc={`Before the scenes of romance, we know Venice for today there were men digging canals and burying alder wood timbers into the marshy lagoons. A slow and arduous task but a necessary one. Their labors would be the foundation for a grand republic that would with stand The Huns, The Lombards, and The Franks. An empire of tiny islands.’`}
+                            desc2={`До романтичних сцен, якими ми знаємо Венецію сьогодні, тут копали канали та закопували вільхові колоди в болотисті лагуни. Це була повільна і важка, але необхідна робота. Їхні праці стануть основою великої республіки, яка встоїть перед гунами, лангобардамі і франками. Імперія крихітних островів.`} 
+                            title={"Founding of Venice - Підстава Венеції"} />
 
                             <Gimage 
-                            path={"images/Series2/Intermission.png"} 
-                            title={"It Still Plays - Це все ще відтворюється"} />
+                            path={"images/Series2/Intermission.png"}
+                            desc={"The intermission is nearly over but you do not wish to go back in just yet.  At the moment you would rather explore the vacant lobby. Seeing the history that is contained in the chipped paints and wall cracks. The doors to the theater close and the performance begins. It comes through as a haunting echo. Background music for your tour."}
+                            desc2={"Антракт майже закінчився, але ви поки не хочете повертатися назад. В даний момент ви віддаєте перевагу досліджувати порожнє фойє. Побачити історію, яка укладена у фарбах і тріщинах на стінах. Двері в театр закриваються, і починається вистава. До вас доноситься примарне відлуння. Фонова музика для вашої екскурсії."} 
+                            title={"Intermission - Антракт"} />
 
                             <Gimage 
-                            path={"images/Series2/Merciless Hallway.png"} 
-                            title={"Ruins of The Far Off - Руїни Далекого"} />
+                            path={"images/Series2/Merciless Hallway.png"}
+                            desc={"You feel it closing in on you even though the walls do not move. The door leading outside is so close but every step forward does not bring you any nearer. There is no malice, its is just the nature of this structure."}
+                            desc2={"Ви відчуваєте, як він наближається до вас, хоча стіни не рухаються. Двері, що ведуть назовні, так близько, але кожен крок вперед не наближає вас до неї. У цьому немає ніякого злого умислу, просто така природа цієї структури."} 
+                            title={"Merciless Hallway - Нещадний коридор"} />
 
                             <Gimage 
                             path={"images/Series2/Mirthful Skyway.png"} 
-                            desc={`I do not play many video games but my grandson introduced me to Morrowind several years ago and I spent much more time playing it than I should have.
-                            The world is so beautiful and terrible in its construction. It is unlike any other "fantasy" game I have played probably why I dedicated so many hours to it.
-                            While there is much I enjoy about the game, I fascinated by House Telvanni and their captial of Sadrith Mora.
-                            The organic mushroom towers have this sort of forboding feel to them that adds to the already foreign nature of the Telvanni.
-                            This piece was inspired by their construction.`}
-                            desc2={`Я не граю у багато відеоігор, але мій онук познайомив мене з Morrowind кілька років тому, і я провів набагато більше часу, граючи у цю гру, ніж повинен був. Світ такий прекрасний та жахливий в його будівництві. Вона не схожа на жодну іншу "фентезі" гру, в яку я грав, напевно, тому я присвятив їй стільки годин. Попри те, що гра мені дуже подобається, я був зачарований Будинком Тельванні та їх столицею Садріт Мора. Огранічні грибові вежі викликають таке погане передчуття, яке підсилює і без того чужу природу Тельванні. Цей витвір був натхненний їх конструкцією.
-                            `} 
-                            title={"Sadrith Mora - Садріт Мора"} />
+                            title={"Mirthful Skyway - Небесний шлях веселощів"} />
 
                             <Gimage 
                             path={"images/Series2/Nan’yoin-dono.png"} 
-                            desc={`"It was a hard fought battle. The Dacians know every pebble of the mountain forts that we fight upon.
-                            We were outnumbered and short on supplies due to the treacherous terrain. 
-                            Through despite our setbacks we came out triumphant due to the efforts of our princeps Imperator Caesar Nerva Traianus Augustus"`}
-                            desc2={`"Це був важкий бій. Даки знають кожну гальку гірських фортець, на яких ми боремося. Нас було менше й не вистачало припасів через підступну місцевість. Попри наші невдачі, ми вийшли переможцями завдяки зусиллям нашого князя імператора Цезаря Нерва Траяна Августа".`} 
-                            title={"Second Battle of Tapae - Друга битва при Тапа"} />
+                            desc={`The lady and her entourage take a stroll through the castle gardens. It is a beautiful late summer afternoon. The air around her is tranquil and the flora full of life.  This is not the case for much of Nippon, it is the Sengoku period of Japan when civil war is the norm. Even now, many miles away her, husband Hōjō Sōun is sieging the castle of Arai.  The air there is filled with shouts and marching footsteps. Life is snuffed out one flame at a time.  He will return, the undisputed master of Sagami. Together they will found a new era for The Hōjō clan.`}
+                            desc2={`Пані та її свита прогулюються по садам замку. Прекрасний пізній літній полудень. Повітря навколо безтурботне, а флора сповнена життя. Це не так для більшої частини Ніппон, це період Сенгоку в Японії, коли громадянська війна є чимось нормальним. Навіть зараз, за багато миль від неї, її чоловік Ходзьо Соун тримає в облозі замок Араі. Повітря наповнене криками і маршируючими кроками. Життя гасне по одному вогнику за раз. Він повернеться, незаперечний господар Сагамі. Разом вони відкриють нову еру для клану Ходзьо.`} 
+                            title={"Nan’yoin-dono - Наньйоін-доно"} />
 
                             <Gimage 
                             path={"images/Series2/Obelisk of Our Times.png"} 
-                            desc={`In silken vestiments and with wine and meat before them do these servents of god do their penitence.`}
-                            desc2={`У шовковому одязі і з вином та м'ясом перед собою ці служителі Божі покаялися.`} 
-                            title={"Sorrowful in Finery - Скорботні у нарядах"} />
+                            
+                            title={"Obelisk of Our Times - Обеліск нашого часу"} />
 
                             <Gimage 
                             path={"images/Series2/Oceanliner.png"} 
-                            desc={`We have all been here in our dreams. Perhaps not this exact room but one like it. A room with everyday purpose but distorted by our subconcious mind.`}
-                            desc2={`Ми всі були тут уві сні. Може бути, не в цій кімнаті, а в тій, що нам подобається. Повсякденна кімната, але перекручена нашою підсвідомістю.`} 
-                            title={"The Falling Room - Кімната, що падає"} />
+                            
+                            title={"Oceanliner - Океанський лайнер"} />
 
                             <Gimage 
                             path={"images/Series2/Overtaking What Once Was.png"} 
-                            desc={`I dearly miss the performances at the Bolshoi from my time in Moscow.`}
-                            desc2={`Я дуже сумую за виставами у Большому з тих пір, як був у Москві.
-                            `} 
-                            title={"The Light of The Bolshoi - Світло Большого"} />
+                            desc2={"Це повільний і тонкий процес, але в кінцевому підсумку він відбувається. Зелений колір проникає всередину, захоплюючи то, що колись було нашим."}
+                            desc={"It is a slow and subtle process but an eventual one. The green creeps in, claiming what once was ours."}
+                            title={"Overtaking What Once Was - Подолання того, що було"} />
 
                             <Gimage 
                             path={"images/Series2/Quiet Suffocation.png"} 
-                            title={"The Marble Remnants of The Empire - Мармурові залишки імперії"} />
+                            title={"Quiet Suffocation - Тиха задуха"} />
 
                             <Gimage 
                             path={"images/Series2/Scarlet Fools.png"} 
-                            desc={`Fire and invisible death crept closer and yet all there remained unaware.
-                            Unaware of the devestation that was to be rought upon them and so many others.
-                            Their only salvation were those brave few. Those who saved the world.`}
-                            desc2={`Вогонь і невидима смерть підкралися ближче, і всі вони залишилися необізнаними. Необізнаність про руйнування, які повинні були бути завдані ним і багатьом іншим. Їхнім єдиним порятунком були ті, хто був хоробрим. Ті, хто врятував світ.
+                            desc={`They are blessed by all manner of gods, spirits, prophecies, and forces of natures. They cannot be touched by the mundane or the divine.  So the Scarlet Fools traverse the cave, ready to seek adventure and absolution.`}
+                            desc2={`Їх благословляють всілякі боги, духи, пророцтва і сили природи. Їх не може торкнутися ні мирське, ні божественне. Тому Червоні Дурні бродять по печері, готові шукати пригод і відпущення гріхів.
                             `} 
-                            title={"Those Who Saved The World - Ті, хто врятував світ"} />
+                            title={"Scarlet Fools - Червоні Дурні"} />
 
                             <Gimage 
                             path={"images/Series2/Seeking The Virtues.png"} 
-                            title={"What They Watch - Що вони спостерігають"} />
+                            desc2={"вони сваряться і б'ються один з одним, очікуючи чудес від божественного."}
+                            desc={"They clamor and fight over one another, seeking miracles from the divine"}
+                            title={"Seeking The Virtues - У пошуках чеснот"} />
 
                             <Gimage 
                             path={"images/Series2/Sick Bed.png"} 
-                            title={"Without Ceremony - Без церемонії"} />
+                            title={"Sick Bed - Ліжко хворого"} />
 
                             <Gimage 
                             path={"images/Series2/Silverback.png"} 
-                            title={"Without Us Saying Anything - Без того, щоб ми говорили що-небудь"} /> 
+                            title={"Silverback - Сріблястість"} /> 
                             
                             <Gimage 
                             path={"images/Series2/Stillness In Real Life.png"} 
-                            title={"Without Us Saying Anything - Без того, щоб ми говорили що-небудь"} /> 
+                            title={"Stillness In Real Life - Спокій в реальному житті"} /> 
 
                             <Gimage 
                             path={"images/Series2/The Clutter of The Estate.png"} 
-                            title={"Without Us Saying Anything - Без того, щоб ми говорили що-небудь"} />
+                            title={"The Clutter of The Estate - Безлад у маєтку"} />
 
                             <Gimage 
                             path={"images/Series2/Thoth.png"} 
-                            title={"Without Us Saying Anything - Без того, щоб ми говорили що-небудь"} />
+                            desc2={"Бог божественної таємниці. Народився без матері. Створений на початку часів. Він уособлює порядок і справедливість. У багатьох міфах він приймає вигляд ібіса, а в деяких – бабуїна, як тут."}
+                            desc={"A god of divine mystery. Born to no mother. Self created at the beginning of time. He represents order and justice. In many myths he takes the form of an ibis but in some he is a baboon, as he is here."}
+                            title={"Thoth - Той"} />
 
                             <Gimage 
                             path={"images/Series2/To See It Once Again.png"} 
-                            title={"Without Us Saying Anything - Без того, щоб ми говорили що-небудь"} />    
+                            title={"To See It Once Again - Щоб побачити це знову"} />    
                           </Row> 
                        </Container>
     

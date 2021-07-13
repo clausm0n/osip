@@ -1,10 +1,12 @@
 import './App.css';
 import Series1 from './components/Series1'
 import Series2 from './components/Series2'
+import Series3 from './components/Series3'
 import {Container, Row, Col} from 'react-bootstrap'
 import SimpleReactLightbox from 'simple-react-lightbox'
 import ReactTwitterFollowButton from 'react-twitter-follow-button'
 import { Link, Route } from "wouter";
+import { FacebookButton } from 'react-social-sharebuttons';
 
 function App() {
   return (
@@ -46,14 +48,28 @@ function App() {
         
         <p>Сподіваюся, вам сподобається візит у мою галерею. Я планую зробити більше робіт і буду розміщувати їх тут і на моєму обліковому записі у Твіттері (на чому наполягав мій онук). Я думаю над тим, щоб зробити більш офіційну серію з певною темою. Я відкритий для думок і пропозицій. Спасибі, що зайшли!</p>
                 </p>
-                <ReactTwitterFollowButton twitterAccount="@OsipShevArt" showLarge={true} showName={true} showCount={true} />
-                <button className='email'>
-                <a className='emailtitle' href='mailto:osipshevchenko@protonmail.com'>Contact Via Email</a>
-                </button>
+                <Row Row xs='3' className="Row-1"> 
+                  <Col>
+                  <ReactTwitterFollowButton twitterAccount="@OsipShevArt" showLarge={true} showName={true} showCount={true} />
+                  </Col>
+                  <Col>
+                  <button className='email'>
+                  <a className='emailtitle' href='mailto:osipshevchenko@protonmail.com'>Contact Via Email</a>
+                  </button>
+                  </Col>
+                  <Col>
+                  <FacebookButton url={"https://www.facebook.com/OsipShevArt"} layout={'box_count'} share={true} showFaces={true}/>
+                  </Col>
+                  
+                </Row>
+                
               </div>
           
-          
+        
         </Row>
+
+        
+
         <Row className="Center">
 
           <Link  href="/Series1">
@@ -84,6 +100,10 @@ function App() {
           
           <Route path="/Series2">
             {(params) => <Series2/>}
+          </Route>
+
+          <Route path="/Series3">
+            {(params) => <Series3/>}
           </Route>
         </Row>
       </Container>
