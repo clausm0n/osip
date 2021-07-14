@@ -17,7 +17,7 @@ function App() {
 
       <Container>
               <div className="Title">
-                <h1>Welcome - Звітати</h1>
+                <h1>Welcome - Вітання</h1>
               </div>
         <Row>
           
